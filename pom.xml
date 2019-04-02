@@ -4,7 +4,7 @@
     <groupId>com.bebel</groupId>
     <artifactId>socle-ws</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>SocleWS</name>
     <description>Socle aux WS de YouLose</description>
     <build>
@@ -19,46 +19,10 @@
                 </configuration>
             </plugin>
 
-            <!-- Minify css and js -->
-            <plugin>
-                <groupId>com.samaxes.maven</groupId>
-                <artifactId>minify-maven-plugin</artifactId>
-                <version>1.7.2</version>
-                <executions>
-                    <execution>
-                        <phase>prepare-package</phase>
-                        <goals>
-                            <goal>minify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <charset>UTF-8</charset>
-                    <skipMerge>true</skipMerge>
-                    <webappSourceDir>${basedir}/WebContent</webappSourceDir>
-                    <cssSourceDir>app/css</cssSourceDir>
-                    <jsSourceDir>app</jsSourceDir>
-                    <jsEngine>CLOSURE</jsEngine>
-                    <nosuffix>true</nosuffix>
-                    <cssSourceIncludes>
-                        <cssSourceInclude>**/*.css</cssSourceInclude>
-                    </cssSourceIncludes>
-                    <jsSourceIncludes>
-                        <jsSourceInclude>**/*.js</jsSourceInclude>
-                    </jsSourceIncludes>
-                </configuration>
-            </plugin>
-
-            <!-- Create war -->
+            <!-- Create jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.4</version>
-                <configuration>
-                    <warSourceDirectory>WebContent</warSourceDirectory>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <warSourceExcludes>app/**/*.js, app/**/*.css</warSourceExcludes>
-                </configuration>
+                <artifactId>maven-jar-plugin</artifactId>
             </plugin>
 
             <!-- Make test -->
