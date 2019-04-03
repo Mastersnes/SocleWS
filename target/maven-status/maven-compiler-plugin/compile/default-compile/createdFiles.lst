@@ -1,2 +1,4 @@
 response\GeneralResponse.class
+util\SecurityUtils.class
+util\SmartProperties.class
 request\KongregateRequest.class
