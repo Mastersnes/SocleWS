@@ -1,4 +1,4 @@
-package request;
+package com.bebel.soclews.request;
 
 /**
  * Requete de base

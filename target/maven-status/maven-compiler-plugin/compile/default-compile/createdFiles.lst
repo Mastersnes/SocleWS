@@ -1,8 +1,8 @@
-request\GeneralRequest.class
-util\DateComparator.class
-bean\IData.class
-abstrait\AbstractClient.class
-request\KongregateRequest.class
-util\Constantes.class
-util\Logger.class
-response\GeneralResponse.class
+com\bebel\soclews\response\GeneralResponse.class
+com\bebel\soclews\util\Logger.class
+com\bebel\soclews\abstrait\AbstractClient.class
+com\bebel\soclews\util\Constantes.class
+com\bebel\soclews\bean\IData.class
+com\bebel\soclews\request\KongregateRequest.class
+com\bebel\soclews\request\GeneralRequest.class
+com\bebel\soclews\util\DateComparator.class

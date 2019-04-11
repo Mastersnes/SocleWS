@@ -1,8 +1,8 @@
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\util\Constantes.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\response\GeneralResponse.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\request\GeneralRequest.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\abstrait\AbstractClient.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\bean\IData.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\util\Logger.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\util\DateComparator.java
-C:\snes\Perso\WSBebel\SocleWS\src\main\java\request\KongregateRequest.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\abstrait\AbstractClient.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\util\Constantes.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\request\GeneralRequest.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\response\GeneralResponse.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\util\Logger.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\util\DateComparator.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\request\KongregateRequest.java
+C:\snes\Perso\WSBebel\SocleWS\src\main\java\com\bebel\soclews\bean\IData.java

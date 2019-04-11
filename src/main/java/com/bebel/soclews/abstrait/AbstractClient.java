@@ -1,4 +1,4 @@
-package abstrait;
+package com.bebel.soclews.abstrait;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
@@ -50,10 +50,10 @@ public abstract class AbstractClient {
     }
 
     /**
-     * Appel le endpoint avec une response sous forme de liste
+     * Appel le endpoint avec une com.bebel.soclews.response sous forme de liste
      */
     public <RESPONSE, REQUEST> RESPONSE perform(final String endPoint, final REQUEST request, final HttpMethod method, final ParameterizedTypeReference<RESPONSE> responseType) throws HttpStatusCodeException {
-        System.out.println("Appel du service REST : " + this.baseUrl + endPoint + " en mode " + method + " avec une response sous forme de liste");
+        System.out.println("Appel du service REST : " + this.baseUrl + endPoint + " en mode " + method + " avec une com.bebel.soclews.response sous forme de liste");
         this.checkParams();
         ResponseEntity<RESPONSE> response = this.restTemplate.exchange(this.baseUrl + endPoint, method, this.header(request), responseType, new Object[0]);
         this.checkResponse(response);

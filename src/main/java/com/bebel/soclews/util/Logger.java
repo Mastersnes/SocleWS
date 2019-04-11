@@ -1,9 +1,9 @@
-package util;
+package com.bebel.soclews.util;
 
 import java.util.Date;
 
-import static util.Constantes.DEBUG_ENABLED;
-import static util.Constantes.FORMAT;
+import static com.bebel.soclews.util.Constantes.DEBUG_ENABLED;
+import static com.bebel.soclews.util.Constantes.FORMAT;
 
 /**
  * Outil de logging

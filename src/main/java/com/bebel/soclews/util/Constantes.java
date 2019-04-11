@@ -1,4 +1,4 @@
-package util;
+package com.bebel.soclews.util;
 
 
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package bean;
+package com.bebel.soclews.bean;
 
 /**
  * Interface de données destinées à etre auvegardées

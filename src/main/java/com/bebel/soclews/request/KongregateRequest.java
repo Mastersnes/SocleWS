@@ -1,4 +1,4 @@
-package request;
+package com.bebel.soclews.request;
 
 /**
  * requete kongregate contenant le username et le code secret

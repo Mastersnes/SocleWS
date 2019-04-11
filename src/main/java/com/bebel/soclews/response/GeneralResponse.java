@@ -1,4 +1,4 @@
-package response;
+package com.bebel.soclews.response;
 
 /**
  * Reponse de base
