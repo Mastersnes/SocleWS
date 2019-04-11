@@ -4,7 +4,7 @@ package request;
  * requete kongregate contenant le username et le code secret
  *
  */
-public class KongregateRequest {
+public class KongregateRequest extends GeneralRequest {
 	private String username;
 	private String secretPass;
 

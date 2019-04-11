@@ -1,4 +1,8 @@
-response\GeneralResponse.class
-util\SecurityUtils.class
-util\SmartProperties.class
+request\GeneralRequest.class
+util\DateComparator.class
+bean\IData.class
+abstrait\AbstractClient.class
 request\KongregateRequest.class
+util\Constantes.class
+util\Logger.class
+response\GeneralResponse.class
