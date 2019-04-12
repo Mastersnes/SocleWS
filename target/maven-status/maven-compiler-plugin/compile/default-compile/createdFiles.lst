@@ -1,6 +1,7 @@
 com\bebel\soclews\response\GeneralResponse.class
 com\bebel\soclews\util\Logger.class
 com\bebel\soclews\abstrait\AbstractClient.class
+com\bebel\soclews\util\HashUtil.class
 com\bebel\soclews\util\Constantes.class
 com\bebel\soclews\bean\IData.class
 com\bebel\soclews\request\KongregateRequest.class
